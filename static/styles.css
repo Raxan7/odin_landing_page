@@ -68,3 +68,38 @@ h2 {
     border: 2px solid #3882f6;
     border-radius: 20px;
 }
+
+.random-container {
+    padding: 0 300px 150px;
+}
+h4 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.item-container {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: auto;
+}
+
+.random-item {
+    flex-direction: column;
+    height: 80px;
+    width: 100px;
+}
+
+.random-item .image {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 15px;
+}
+
+.random-item .text {
+    font-size: 14px;
+    color: grey;
+}
