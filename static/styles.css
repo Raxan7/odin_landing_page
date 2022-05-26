@@ -9,7 +9,7 @@ header {
 
 .navbar {
     display: flex;
-    padding: 0 60px;
+    padding: 0 134px;
 }
 
 .nav-item {
@@ -26,4 +26,45 @@ header {
 
 .nav-item.first {
     margin-left: auto;
+}
+
+.first-container {
+    display: flex;
+    padding: 70px 150px;
+    background-color: #1f2937;
+}
+
+.first-container .text {
+    width: 400px;
+    padding-right: 60px;
+}
+
+h2 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.first-container .text p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.first-container .text button {
+    background-color: #3882f6;
+    border-radius: 25px;
+    height: 30px;
+    width: 100px;
+    border: 8px solid #3882f6;
+    color: #f9faf8;
+    font-weight: 24px;
+}
+
+.first-container .image {
+    height: 220px;
+    width: 500px;
+    border: 2px solid #3882f6;
+    border-radius: 20px;
 }
