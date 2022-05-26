@@ -105,6 +105,12 @@ h4 {
     color: grey;
 }
 
+.random-item .image img {
+    height: 100px;
+    width: auto;
+    border-radius: 15px;
+}
+
 .quote-container {
     padding: 150px 300px;
     background-color: #e5e7eb;
