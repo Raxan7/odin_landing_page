@@ -66,8 +66,13 @@ h2 {
 .first-container .image {
     height: 220px;
     width: 500px;
-    border: 2px solid #3882f6;
-    border-radius: 20px;
+}
+
+#hero-img {
+    height: 220px;
+    width: 500px;
+    border: 2px dotted royalblue;
+    border-radius: 15px;
 }
 
 .random-container {
