@@ -101,13 +101,13 @@ h4 {
 .random-item .image {
     height: 100px;
     width: 100px;
-    border: 2px solid #3882f6;
-    border-radius: 15px;
 }
 
 .random-item .text {
+    padding-top: 8px;
+    text-align: center;
     font-size: 14px;
-    color: grey;
+    color: rgb(70, 66, 66);
 }
 
 .random-item .image img {
